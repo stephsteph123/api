@@ -1,0 +1,9 @@
+ const grey = require(`./node_modules/request`)
+ const request = require('request')
+const data = JSON.parse(body);
+console.log(data);
+console.log(typeof data);
+
+fetchBreedDescription('Siberian', (error, description) => {
+
+});
